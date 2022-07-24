@@ -1,0 +1,64 @@
+body{
+   
+    margin: 0;
+    font-family: Roboto; 
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+  }
+  li{
+    padding: 6px 10px;
+    border: 1px solid #eee;
+    margin: 10px auto;
+  }
+  li h4{
+    color: rgb(142, 34, 243);
+    margin: 0;
+    text-transform: capitalize;
+  }
+  li p{
+    color: #333;
+    margin: 8px 0 0;
+  }
+h1{
+    color: rgb(142, 34, 243);
+    text-align: center;
+}
+.form-new-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(201, 201, 201);
+    text-align: left;
+}
+.field{
+    text-align: left;
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 120px;
+    margin-bottom: 2em;
+    border-radius: 7px;
+    padding: 1em 2em;
+    font-size: 1em;
+    background-color: rgb(142, 34, 243);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+}
+input, select{
+   height: 2em;
+   width: 30vw;
+   padding: 0.3em;
+   border-radius: 7px;
+}
+select{
+    background-color: rgb(232, 232, 232);
+    font-size: 1.1em;
+}
+label{
+    font-size: 1.2em;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Finance Tracker</title>
+</head>
+<body>
+    
+    <h1>Finance Tracker</h1>
+        <form class="form-new-item">
+            <div class="field">
+                <label for="type">Type:</label>
+                    <select name="type" id="type">
+                        <option value="payment">Payment</option>
+                        <option value="invoice">Invoice</option>
+                    </select>
+            </div>
+            <div class="field">
+                <label for="type">To / From:</label>
+                    <input type="text" id="tofrom">
+            </div>
+            <div class="field">
+                <label for="tofrom">Details:</label>
+                    <input type="text" id="details">
+            </div>
+            <div class="field">
+                <label for="amount">Amount:</label>
+                    <input type="number" id="amount">
+            </div>
+        <button>Add</button>
+        </form>
+        <div class="data">
+              <!-- output list -->
+            <ul class="item-list">
+            
+            </ul>
+        </div>
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
